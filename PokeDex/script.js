@@ -17,6 +17,7 @@ const colors = {
 	normal: '#F5F5F5'
 }
 
+// to add keys to the colors array so that in "types", the color matches the type of pokemon
 const main_types = Object.keys(colors);
 
 const fetchPokemons = async() => {
