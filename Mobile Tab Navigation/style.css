@@ -24,7 +24,7 @@ body {
 }
 
 .phone .content {
-    /* opacity: 0; */
+    opacity: 0;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -34,8 +34,8 @@ body {
     transition: opacity 0.4s ease;
 }
 
-.phone .content .show {
-    opacity: 1;;
+.phone .content.show {
+    opacity: 1;
 }
 
 nav {
