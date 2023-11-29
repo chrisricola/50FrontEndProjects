@@ -24,6 +24,8 @@ function addTodo(todo) {
 
         todoEL.innerText = todoText
 
+        todoEL.addEventListener('click', () => todoEL.classList.toggle('completed'))
+
         todosUL.appendChild(todoEL)
 
         input.value = ''
